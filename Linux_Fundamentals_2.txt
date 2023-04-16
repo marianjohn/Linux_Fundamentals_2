@@ -1,34 +1,35 @@
 #Remote login using SSH(Secure shell)
-shh username@machine_ip
+shh username@machine_ip = To login as the user remotely 
+SSH is a network protocol which allows terminal communication across port 22.
 
 #Flags and switches
-man ls = provides the manual page of the command
-ls = lists the files availabale in the directory
-ls -a = lists all files including hidden ones
+man ls = provides the manual page of the command.
+ls = lists the files availabale in the directory.
+ls -a = lists all files including hidden ones.
 
 #Filesystem interaction
-touch filename = to create a file
-mkdir filename = to create a new directory
-rm filename = to remove a file
-rm -R directoryname = to remove a directory
-cp filename1 filename2 = to copy contents of filename1 to filename2
-mv filename1 filename2 = to move contents of filename1 to filename2 and delete filename1
-file filename = describes the type of the file 
+touch filename = to create a file.
+mkdir filename = to create a new directory.
+rm filename = to remove a file.
+rm -R directoryname = to remove a directory.
+cp filename1 filename2 = to copy contents of filename1 to filename2.
+mv filename1 filename2 = to move contents of filename1 to filename2 and delete filename1.
+file filename = describes the type of the file. 
 
 #Permissions
-ls -lh filenemae = briefs on the permission status of the file
-su username = to switch between users
-su -l username = creates shell similar to the user(even the directory the user used)
+ls -lh filenemae = briefs on the permission status of the file.
+su username = to switch between users.
+su -l username = creates shell similar to the user(even the directory the user used).
 
 #Common Directories
-/etc = important directory in the root shell
-Stores system files used by the operating system
+/etc = important directory in the root shell.
+Stores system files used by the operating system.
 sudoers = contains the users and group that have permission to run root.
-paaswd and shadow = tells how the password for each user is encrypted
-/var = contains variable data that are frequently accessed by applications
+paaswd and shadow = tells how the password for each user is encrypted.
+/var = contains variable data that are frequently accessed by applications.
 /var/log = log file of the system running is stored here.
 /tmp = stores temporary files, once restarted the contents in this directory are removed.Volatile storage similar to RAM.
-/root - home directory of the root user
+/root - home directory of the root user.
 
 
  	
